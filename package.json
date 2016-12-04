@@ -1,0 +1,35 @@
+{
+  "name": "adventar",
+  "version": "0.0.0",
+  "description": "Retrieve articles from adventar",
+  "license": "MIT",
+  "repository": "akameco/adventar",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "adventar"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "got": "^6.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
