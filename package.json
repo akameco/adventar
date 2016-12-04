@@ -1,6 +1,6 @@
 {
   "name": "adventar",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Retrieve articles from adventar",
   "license": "MIT",
   "repository": "akameco/adventar",
