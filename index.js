@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 module.exports = input => {
 	if (!input) {
-		throw new Error(`id or url required`);
+		return Promise.reject(new Error(`id or url required`));
 	}
 
 	const target = /http/.test(input) ? input : url.resolve('http://www.adventar.org/calendars/', input);
